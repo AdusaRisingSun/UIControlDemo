@@ -15,6 +15,10 @@
 		3914EE331B903967001C2397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914EE321B903967001C2397 /* Images.xcassets */; };
 		3914EE361B903967001C2397 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3914EE341B903967001C2397 /* LaunchScreen.xib */; };
 		3914EE421B903967001C2397 /* UIControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914EE411B903967001C2397 /* UIControlDemoTests.m */; };
+		3914EE4D1B903AD7001C2397 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3914EE4C1B903AD7001C2397 /* Thumb.m */; };
+		39AA67DB1B93E26E00495B57 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AA67DA1B93E26E00495B57 /* CustomSlider.m */; };
+		39AA67DF1B93F6AA00495B57 /* icotrip-bonhomme-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AA67DE1B93F6AA00495B57 /* icotrip-bonhomme-02.png */; };
+		39AA67E11B93F6E000495B57 /* icotrip-toyz-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AA67E01B93F6E000495B57 /* icotrip-toyz-10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,12 @@
 		3914EE3B1B903967001C2397 /* UIControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3914EE401B903967001C2397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3914EE411B903967001C2397 /* UIControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlDemoTests.m; sourceTree = "<group>"; };
+		3914EE4B1B903AD7001C2397 /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
+		3914EE4C1B903AD7001C2397 /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
+		39AA67D91B93E26E00495B57 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		39AA67DA1B93E26E00495B57 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		39AA67DE1B93F6AA00495B57 /* icotrip-bonhomme-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icotrip-bonhomme-02.png"; sourceTree = "<group>"; };
+		39AA67E01B93F6E000495B57 /* icotrip-toyz-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icotrip-toyz-10.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,12 @@
 				3914EE271B903967001C2397 /* AppDelegate.m */,
 				3914EE2C1B903967001C2397 /* ViewController.h */,
 				3914EE2D1B903967001C2397 /* ViewController.m */,
+				3914EE4B1B903AD7001C2397 /* Thumb.h */,
+				3914EE4C1B903AD7001C2397 /* Thumb.m */,
+				39AA67D91B93E26E00495B57 /* CustomSlider.h */,
+				39AA67DA1B93E26E00495B57 /* CustomSlider.m */,
+				39AA67DE1B93F6AA00495B57 /* icotrip-bonhomme-02.png */,
+				39AA67E01B93F6E000495B57 /* icotrip-toyz-10.png */,
 				3914EE2F1B903967001C2397 /* Main.storyboard */,
 				3914EE321B903967001C2397 /* Images.xcassets */,
 				3914EE341B903967001C2397 /* LaunchScreen.xib */,
@@ -205,6 +221,8 @@
 				3914EE311B903967001C2397 /* Main.storyboard in Resources */,
 				3914EE361B903967001C2397 /* LaunchScreen.xib in Resources */,
 				3914EE331B903967001C2397 /* Images.xcassets in Resources */,
+				39AA67DF1B93F6AA00495B57 /* icotrip-bonhomme-02.png in Resources */,
+				39AA67E11B93F6E000495B57 /* icotrip-toyz-10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3914EE2B1B903967001C2397 /* UIControlDemo.xcdatamodeld in Sources */,
+				39AA67DB1B93E26E00495B57 /* CustomSlider.m in Sources */,
 				3914EE281B903967001C2397 /* AppDelegate.m in Sources */,
 				3914EE2E1B903967001C2397 /* ViewController.m in Sources */,
 				3914EE251B903967001C2397 /* main.m in Sources */,
+				3914EE4D1B903AD7001C2397 /* Thumb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +442,7 @@
 				3914EE471B903967001C2397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3914EE481B903967001C2397 /* Build configuration list for PBXNativeTarget "UIControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +451,7 @@
 				3914EE4A1B903967001C2397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
